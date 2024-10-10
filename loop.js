@@ -24,9 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return () => flatten(arr);
     };
 
-    /**
-     * Example usage for Part 2:
-     */
+
     const nestedArray = [1, [2, [3, 4], 5], 6];
     try {
         console.log("Flattened array:", trampolinedFlatten(nestedArray)()); // Flattens the array
